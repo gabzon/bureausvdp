@@ -1,5 +1,17 @@
 {
-  "scripts/customizer.js": "scripts/customizer_02917c12.js",
-  "styles/main.css": "styles/main_02917c12.css",
-  "scripts/main.js": "scripts/main_02917c12.js"
+  "fonts/bluunext-bold-webfont.svg": "fonts/bluunext-bold-webfont_ac4fcc19.svg",
+  "fonts/bluunext-bold-webfont.woff": "fonts/bluunext-bold-webfont_d6ede42d.woff",
+  "fonts/bluunext-bold-webfont.woff2": "fonts/bluunext-bold-webfont_865df236.woff2",
+  "fonts/bluunext-bold.ttf": "fonts/bluunext-bold_59e21dc2.ttf",
+  "fonts/bluunext-bolditalic-webfont.svg": "fonts/bluunext-bolditalic-webfont_d0d12998.svg",
+  "fonts/bluunext-bolditalic-webfont.woff": "fonts/bluunext-bolditalic-webfont_d92e6458.woff",
+  "fonts/bluunext-bolditalic-webfont.woff2": "fonts/bluunext-bolditalic-webfont_fdd4e830.woff2",
+  "fonts/bluunext-bolditalic.ttf": "fonts/bluunext-bolditalic_4c8b47ba.ttf",
+  "images/close_phone.svg": "images/close_phone_e784b2c4.svg",
+  "images/information_phone.svg": "images/information_phone_d3e0e3f5.svg",
+  "images/loupe_moins.svg": "images/loupe_moins_a356cfbf.svg",
+  "images/loupe_plus.svg": "images/loupe_plus_f6081218.svg",
+  "scripts/customizer.js": "scripts/customizer_0c1413b3.js",
+  "styles/main.css": "styles/main_0c1413b3.css",
+  "scripts/main.js": "scripts/main_0c1413b3.js"
 }

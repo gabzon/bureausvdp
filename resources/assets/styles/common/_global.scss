@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+  body {
+    padding-top: 0;
+    font-family: bluu, Helvetica, Arial, Verdana, serif;
+  }
+
+  .wrap {
+    main {
+      width: 75%;
+      height: 100vh;
+      overflow-y: scroll;
+
+      ::-webkit-scrollbar-track {
+        background: red;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .loupe {
+    display: none;
+  }
+}

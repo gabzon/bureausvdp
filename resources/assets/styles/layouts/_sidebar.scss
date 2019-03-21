@@ -1,0 +1,19 @@
+@media (min-width: 768px) {
+  #sideNav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: $sidebar-base-width;
+    height: 100vh;
+
+    .mobile {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+}

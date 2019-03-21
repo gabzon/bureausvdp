@@ -63,6 +63,8 @@ array_map(function ($file) use ($sage_error) {
   'setup',
   'filters',
   'admin',
+  'tgm-plugins',
+  'kirki',
   'Models/Project'
 ]);
 
@@ -96,3 +98,55 @@ Container::getInstance()
     'view' => require dirname(__DIR__).'/config/view.php',
   ]);
 }, true);
+
+
+
+add_filter('piklist_admin_pages', 'piklist_theme_setting_pages');
+function piklist_theme_setting_pages($pages) {
+  $pages[] = array(
+    'page_title' => __('Bureau SVDP Options'),
+    'menu_title' => __('Options', 'piklist'),
+    'sub_menu' => 'themes.php',
+    'capability' => 'manage_options',
+    'menu_slug' => 'custom_settings',
+    'setting' => 'svdp_theme_options',
+    'menu_icon' => plugins_url('piklist/parts/img/piklist-icon.png'),
+    'page_icon' => plugins_url('piklist/parts/img/piklist-page-icon-32.png'),
+    'single_line' => true,
+    'default_tab' => 'Basic',
+    'save_text' => 'Sauvegarder',
+  );
+
+  return $pages;
+}
+
+//https://codex.wordpress.org/Function_Reference/get_post_gallery_images
+// function pw_show_gallery_image_urls( $content ) {
+//
+//   global $post;
+//
+//   // Only do this on singular items
+//   if( ! is_singular() )
+//   return $content;
+//
+//   // Make sure the post has a gallery in it
+//   if( ! has_shortcode( $post->post_content, 'gallery' ) )
+//   return $content;
+//
+//   // Retrieve the first gallery in the post
+//   $gallery = get_post_gallery_images( $post );
+//
+//   // Loop through each image in each gallery
+//   foreach( $gallery as $image_url ) {
+//
+//     $image_list .= '<img src="' . $image_url . '">';
+//
+//   }
+//
+//   // Append our image list to the content of our post
+//   $content .= $image_list;
+//
+//   return $content;
+//
+// }
+// add_filter( 'the_content', 'pw_show_gallery_image_urls' );
