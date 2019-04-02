@@ -1,7 +1,20 @@
+//https://www.w3schools.com/howto/howto_css_sticky_element.asp
+//https://codepen.io/devstreak/pen/dMYgeO
+//https://css-tricks.com/custom-scrollbars-in-webkit/
+//https://scotch.io/tutorials/customize-the-browsers-scrollbar-with-css
+
+body {
+  font-family: bluu, Helvetica, Arial, Verdana, serif;
+}
+
 @media (min-width: 768px) {
   body {
     padding-top: 0;
     font-family: bluu, Helvetica, Arial, Verdana, serif;
+  }
+
+  .hearts {
+    display: none;
   }
 
   .wrap {
@@ -10,8 +23,66 @@
       height: 100vh;
       overflow-y: scroll;
 
-      ::-webkit-scrollbar-track {
-        background: red;
+      &::-webkit-scrollbar-track {
+        background-color: #106db1;
+      }
+
+      &::-webkit-scrollbar {
+        width: 10px;
+        margin: 30 20 10 30;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        width: 8px;
+        background-color: #f4f4f4;
+        //background-image: url("../images/ascenseur1.svg");
+        //background-repeat: no-repeat;
+      }
+
+      .loupe {
+        text-align: left;
+        margin-left: 10px;
+        background: green;
+        cursor: pointer;
+
+        img,
+        span.icon {
+          position: fixed;
+          margin-top: 10px;
+          z-index: 9999;
+        }
+      }
+    }
+
+    .project {
+      .sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 90%;
+        height: 280px;
+        overflow: visible;
+
+        .rotate {
+          //border: 1px solid red;
+          position: absolute;
+          overflow: visible;
+          width: 280px;
+          z-index: 9998;
+          //left: 200px;
+          //top: 90%;
+          transform-origin: 0 0;
+          transform: rotate(-90deg);
+          font-size: 13px;
+        }
+
+        .spacer {
+          padding-top: 1px;
+        }
+      }
+
+      .gallery {
+        margin-top: -280px;
       }
     }
   }
@@ -20,5 +91,36 @@
 @media (max-width: 768px) {
   .loupe {
     display: none;
+  }
+
+  .hearts {
+    display: none;
+  }
+
+  .project {
+    .sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      height: 150px;
+      overflow: visible;
+      //border: 1px solid green;
+
+      .rotate {
+        position: absolute;
+        top: 50px;
+        overflow: visible;
+        width: 280px;
+        z-index: 200;
+        font-size: 13px;
+      }
+
+      .spacer {
+        padding-top: 1px;
+      }
+    }
+
+    .gallery {
+      margin-top: -150px;
+    }
   }
 }

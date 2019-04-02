@@ -7,11 +7,17 @@
   "fonts/bluunext-bolditalic-webfont.woff": "fonts/bluunext-bolditalic-webfont_d92e6458.woff",
   "fonts/bluunext-bolditalic-webfont.woff2": "fonts/bluunext-bolditalic-webfont_fdd4e830.woff2",
   "fonts/bluunext-bolditalic.ttf": "fonts/bluunext-bolditalic_4c8b47ba.ttf",
+  "fonts/icon_svdp.svg?ucjnl2": "fonts/icon_svdp_1058d015.svg",
+  "images/ascenseur1.svg": "images/ascenseur1_26d74e17.svg",
+  "images/ascenseur2.svg": "images/ascenseur2_829284a2.svg",
   "images/close_phone.svg": "images/close_phone_e784b2c4.svg",
+  "images/coeurbleu.svg": "images/coeurbleu_68c58952.svg",
+  "images/coeurjaune.svg": "images/coeurjaune_8b3f05ef.svg",
+  "images/coeurvert.svg": "images/coeurvert_487c6f03.svg",
   "images/information_phone.svg": "images/information_phone_d3e0e3f5.svg",
   "images/loupe_moins.svg": "images/loupe_moins_a356cfbf.svg",
   "images/loupe_plus.svg": "images/loupe_plus_f6081218.svg",
-  "scripts/customizer.js": "scripts/customizer_0c1413b3.js",
-  "styles/main.css": "styles/main_0c1413b3.css",
-  "scripts/main.js": "scripts/main_0c1413b3.js"
+  "scripts/customizer.js": "scripts/customizer_bd3dce6e.js",
+  "styles/main.css": "styles/main_bd3dce6e.css",
+  "scripts/main.js": "scripts/main_bd3dce6e.js"
 }

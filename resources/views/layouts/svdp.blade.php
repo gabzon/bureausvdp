@@ -3,6 +3,7 @@
 @include('partials.head')
 <body @php body_class() @endphp>
   @php do_action('get_header') @endphp
+  @include('coeurs')
   <div class="wrap" role="document">
     <aside class="sidebar">
       @include('partials.sidebar')

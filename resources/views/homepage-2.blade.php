@@ -1,5 +1,5 @@
 {{--
-Template Name: Homepage
+Template Name: Homepage 2
 --}}
 @extends('layouts.svdp')
 
@@ -11,35 +11,34 @@ $args = array(
 );
 // The Query
 $query = new WP_Query( $args );
-
 $theme_options = get_option('svdp_theme_options');
 $background_color = $theme_options['svdp_sidebar_background_color'];
-$gallery_text_color = $theme_options['svdp_gallery_text_color'];
 @endphp
 
 @section('content')
   <div class="homepage" style="background:#{{$background_color}}">
     @if ($query->have_posts())
-      <div class="loupe dim">
-        <span class="icon-loupe_moins icon pt-4" style="font-size:1.5rem; color:{{ $gallery_text_color }};"></span>
-        {{-- <img src="@asset('images/loupe_moins.svg')" width="30"> --}}
+      <div class="loupe">
+        <a href="{{ home_url('/') }}">
+          <span class="icon-loupe_plus icon" style="font-size:1.5rem; color:{{ $gallery_text_color }};"></span>
+        </a>
       </div>
       <div class="portfolio">
         @while ($query->have_posts())
           @php $query->the_post();@endphp
-          <div class="project">
+          <article class="project">
             @include('partials.sticky-header')
             @php
             $gallery = get_post_meta(get_the_ID(),'svdp_photo_gallery');
             @endphp
             <div class="gallery tc">
               @foreach ($gallery as $img)
-                <img src="{{ wp_get_attachment_url($img) }}" alt="" class="img-fluid w-100">
+                <img src="{{ wp_get_attachment_url($img) }}" alt="" class="img-fluid w-60 my-5">
               @endforeach
             </div>
-          </div>
-        @endwhile
+          </article>
       </div>
+      @endwhile
     @else
       // no posts found
     @endif

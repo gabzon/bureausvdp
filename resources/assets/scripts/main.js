@@ -1,5 +1,6 @@
 // import external dependencies
 import 'jquery';
+import 'sticky-kit/dist/sticky-kit';
 
 // Import everything from autoload
 import './autoload/**/*'

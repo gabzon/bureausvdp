@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="21px" height="22.125px" viewBox="0 0 21 22.125" enable-background="new 0 0 21 22.125" xml:space="preserve">
+<g>
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0.7397" y1="10.8389" x2="20.2598" y2="10.8389">
+			<stop  offset="0" style="stop-color:#FFFFB4"/>
+			<stop  offset="1" style="stop-color:#C2FFC2"/>
+		</linearGradient>
+		<path fill="url(#SVGID_1_)" d="M10.557,20.924l6.431-8.086c0,0,7.191-8.601,0.25-11.632c-4.416-1.928-6.681,2.924-6.681,2.924
+			S8.178-0.722,3.762,1.206C-3.18,4.237,4.011,12.838,4.011,12.838L10.557,20.924z"/>
+		<path fill="none" stroke="#B3B3B3" stroke-width="0.0373" stroke-miterlimit="10" d="M10.557,20.924l6.431-8.086
+			c0,0,7.191-8.601,0.25-11.632c-4.416-1.928-6.681,2.924-6.681,2.924S8.178-0.722,3.762,1.206
+			C-3.18,4.237,4.011,12.838,4.011,12.838L10.557,20.924z"/>
+	</g>
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0.721" y="0.735" width="19.557" height="20.219">
+			
+				<feColorMatrix  type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0" color-interpolation-filters="sRGB" result="source"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="0.721" y="0.735" width="19.557" height="20.219" id="SVGID_2_">
+		<g filter="url(#Adobe_OpacityMaskFilter)">
+			
+				<image overflow="visible" width="25" height="25" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
+EAMCAwYAAAGZAAAByAAAAlj/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoX
+Hh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa
+JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEIABkAGQMBIgACEQEDEQH/
+xACBAAADAQEBAAAAAAAAAAAAAAAABAcDBQYBAQAAAAAAAAAAAAAAAAAAAAAQAAIBBQEBAAAAAAAA
+AAAAAAMEBQAgAgYHARURAAIBAQQIBwEAAAAAAAAAAAECAxIAETEEECFBUTITBRUgYXGBseFCFBIB
+AAAAAAAAAAAAAAAAAAAAIP/aAAwDAQACEQMRAAAAQ6eFDJ14SmzI0o01BhcD/9oACAECAAEFALP/
+2gAIAQMAAQUAs//aAAgBAQABBQDT9LBMLH5oHKU2jQ1EUK5xO4D9roc7gsjQDmXMn0Fb4T77Ui1b
+/9oACAECAgY/AB//2gAIAQMCBj8AH//aAAgBAQEGPwDuGekIy9RWOJDcWp1Go+u6yPDNT00i+SMk
+mQEflTuNpOodNdlEC1SROagVGJBxv0P0bMOFrNeWv2k8SD50dqhcf0Zm7mgYrF94aEngcxyxkMjr
+iCLNPmSvc41K8nXc7Dhb3tJm825kmkN5OwDcPIeL/9k=" transform="matrix(1 0 0 1 -2 -2)">
+			</image>
+		</g>
+	</mask>
+	<g opacity="0.75" mask="url(#SVGID_2_)">
+		<path fill="#FFFFFF" d="M10.557,20.924l6.431-8.086c0,0,7.191-8.601,0.25-11.632c-4.416-1.928-6.681,2.924-6.681,2.924
+			S8.178-0.722,3.762,1.206C-3.18,4.237,4.011,12.838,4.011,12.838L10.557,20.924z"/>
+		<path fill="none" stroke="#FFFFFF" stroke-width="0.0373" stroke-miterlimit="10" d="M10.557,20.924l6.431-8.086
+			c0,0,7.191-8.601,0.25-11.632c-4.416-1.928-6.681,2.924-6.681,2.924S8.178-0.722,3.762,1.206
+			C-3.18,4.237,4.011,12.838,4.011,12.838L10.557,20.924z"/>
+	</g>
+</g>
+</svg>

@@ -2,13 +2,14 @@
   "entry": {
     "main": [
       "./scripts/main.js",
+      "./styles/fonts.css",
       "./styles/main.scss"
     ],
     "customizer": [
       "./scripts/customizer.js"
     ]
   },
-  "publicPath": "/app/themes/sage",
+  "publicPath": "/app/themes/bureausvdp",
   "devUrl": "localhost/bureausvdp",
   "proxyUrl": "http://localhost:3000",
   "cacheBusting": "[name]_[hash:8]",
