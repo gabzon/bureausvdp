@@ -7,9 +7,9 @@ export default {
       jQuery( '.hearts' ).toggle();
     });
 
-    jQuery('.sticky').stick_in_parent({
-      parent: '.project',
-    });
+    // jQuery('.sticky').stick_in_parent({
+    //   parent: '.project',
+    // });
 
     jQuery('.loupe').click(function() {
       if (jQuery('.loupe span').hasClass('icon-loupe_moins')) {

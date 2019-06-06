@@ -57,18 +57,20 @@ body {
 
     .project {
       .sticky {
+        //background: green;
         position: -webkit-sticky;
         position: sticky;
         top: 90%;
-        height: 280px;
+        height: 250px;
         overflow: visible;
 
         .rotate {
           //border: 1px solid red;
+          //background: orange;
           position: absolute;
           overflow: visible;
-          width: 280px;
-          z-index: 9998;
+          width: 250px;
+          z-index: 8000;
           //left: 200px;
           //top: 90%;
           transform-origin: 0 0;
@@ -101,6 +103,7 @@ body {
     .sticky {
       position: -webkit-sticky;
       position: sticky;
+      top: 30px;
       height: 150px;
       overflow: visible;
       //border: 1px solid green;

@@ -6,8 +6,9 @@ Template Name: Homepage
 @php
 // WP_Query arguments
 $args = array(
-  'post_type'      => array( 'project' ),
-  'orderby'        => 'rand',
+  'post_type'       => array( 'project' ),
+  'orderby'         => 'rand',
+  'posts_per_page'  => 75,
 );
 // The Query
 $query = new WP_Query( $args );
@@ -24,7 +25,7 @@ $gallery_text_color = $theme_options['svdp_gallery_text_color'];
         <span class="icon-loupe_moins icon pt-4" style="font-size:1.5rem; color:{{ $gallery_text_color }};"></span>
         {{-- <img src="@asset('images/loupe_moins.svg')" width="30"> --}}
       </div>
-      <div class="portfolio">
+      <div class="portfolio" >
         @while ($query->have_posts())
           @php $query->the_post();@endphp
           <div class="project">
